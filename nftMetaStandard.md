@@ -42,7 +42,7 @@ This is the registered `transaction_metadatum_label` value
 
 The structure allows for multiple token mints, also with different policies, in a single transaction.
 
-```json
+```
 {
   "721": {
     [policyId]: {
