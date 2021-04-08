@@ -38,7 +38,7 @@ This is the registered `transaction_metadatum_label` value
 | --------------------------- | ------------ |
 | 721                         | NFT Metadata |
 
-#### Structure
+### Structure
 
 The structure allows for multiple token mints, also with different policies, in a single transaction.
 
@@ -76,7 +76,7 @@ This structure really just defines the basis. New properties and standards can b
 
 The retreiveal of the metadata should be the the same for all however.
 
-#### Retreive valid metadata for a specific token
+### Retreive valid metadata for a specific token
 
 As mentioned above this metadata structure allows to have either one token or multiple tokens with also different policies in a single mint transaction. A third party tool can then fetch the token metadata seamlessly. It doesn't matter if the metadata includes just one token or multiple. The proceedure for the third party is always the same:
 
